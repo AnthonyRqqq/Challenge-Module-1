@@ -6,7 +6,20 @@
 
 body {
     background-color: #d9dcd6;
+    color:#ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
 
 .float-left {
     float: left;
@@ -22,7 +35,6 @@ body {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    color: #ffffff;
 }
 
 .header h1 {
@@ -30,7 +42,7 @@ body {
     font-size: 48px;
 }
 
-.header h1 .seo {
+#seo {
     color: #d9dcd6;
 }
 
@@ -38,22 +50,12 @@ body {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
-}
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
 }
 
 .hero {
@@ -65,19 +67,20 @@ p {
     background-position: center;
 }
 
-.content {
+.content,
+.benefits {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+.search-engine-optimization, 
+.online-reputation-management, 
+.social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
-    color: #ffffff;
 }
 
 .content img {
@@ -96,13 +99,14 @@ p {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
-.benefit-lead, .benefit-brand, .benefit-cost {
+.benefit-lead, 
+.benefit-brand, 
+.benefit-cost {
     margin-bottom: 32px;
-    color: #ffffff;
+
 }
 
 .benefits h3 {
@@ -121,8 +125,5 @@ p {
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
-
-.footer h2 {
-    font-size: 20px;
+    color: black;
 }
