@@ -4,6 +4,7 @@
     margin: 0;
 }
 
+/* Condensed color code and font family code spread throughout into just the body element selector */
 body {
     background-color: #d9dcd6;
     color:#ffffff;
@@ -11,6 +12,7 @@ body {
 
 }
 
+/* Reordered code to have element selectors appear just after universal selectors */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -67,6 +69,8 @@ p {
     background-position: center;
 }
 
+/* Condensed class selectors for cleaner code */
+/* Reorganized code to mirror the order in index.html */
 .content,
 .benefits {
     width: 75%;
@@ -74,19 +78,22 @@ p {
     margin-left: 20px;
 }
 
-.search-engine-optimization, 
-.online-reputation-management, 
-.social-media-marketing {
+/* Condensed id selectors for cleaner code */
+#search-engine-optimization, 
+#online-reputation-management, 
+#social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     background-color: #0072bb;
 }
 
+/* Condensed class selectors for cleaner code */
 .content img {
     max-height: 200px;
 }
 
+/* Condensed class selectors for cleaner code */
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -102,24 +109,29 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead, 
-.benefit-brand, 
-.benefit-cost {
+/* Condensed id selectors for cleaner code */
+#benefit-lead, 
+#benefit-brand, 
+#benefit-cost {
     margin-bottom: 32px;
 
 }
 
+/* Condensed class selectors for cleaner code */
 .benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Condensed class selectors for cleaner code */
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Condensed class selectors for cleaner code
+Added color to text to maintain original design alongside previous code changes */
 .footer {
     padding: 30px;
     clear: both;
