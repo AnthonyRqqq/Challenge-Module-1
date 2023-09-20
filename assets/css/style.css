@@ -71,17 +71,17 @@ nav ul li {
 
 /* Condensed class selectors for cleaner code */
 /* Reorganized code to mirror the order in index.html */
-.content,
-.benefits {
+/* Sets initial code for content and benefits ids */
+#content,
+#benefits {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* Condensed id selectors for cleaner code */
-#search-engine-optimization, 
-#online-reputation-management, 
-#social-media-marketing {
+/* Condensed selectors for cleaner code */
+/* Further specifies appearance of content id elements */
+.content-content {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -89,17 +89,18 @@ nav ul li {
 }
 
 /* Condensed class selectors for cleaner code */
-.content img {
+#content img {
     max-height: 200px;
 }
 
 /* Condensed class selectors for cleaner code */
-.content h2 {
+h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.benefits {
+/* Further specifies appearance of benefits elements */
+#benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -109,22 +110,20 @@ nav ul li {
     background-color: #2589bd;
 }
 
-/* Condensed id selectors for cleaner code */
-#benefit-lead, 
-#benefit-brand, 
-#benefit-cost {
-    margin-bottom: 32px;
+/* Condensed selectors for cleaner code */
+.benefits-content {
+    margin-bottom: 32px; */
 
 }
 
 /* Condensed class selectors for cleaner code */
-.benefits h3 {
+h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
 /* Condensed class selectors for cleaner code */
-.benefits img {
+#benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
