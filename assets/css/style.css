@@ -33,13 +33,13 @@ p {
     margin-left: 25px;
 }
 
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
 }
 
-.header h1 {
+h1 {
     display: inline-block;
     font-size: 48px;
 }
@@ -48,19 +48,19 @@ p {
     color: #d9dcd6;
 }
 
-.header div {
+nav{
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-size: 20px;
 }
 
-.header div ul li {
+nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-.hero {
+#hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -132,7 +132,7 @@ p {
 
 /* Condensed class selectors for cleaner code
 Added color to text to maintain original design alongside previous code changes */
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
